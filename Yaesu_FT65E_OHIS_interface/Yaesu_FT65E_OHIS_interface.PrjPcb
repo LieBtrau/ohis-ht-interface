@@ -211,6 +211,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document10]
+DocumentPath=OHIS_FT65E.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SPZBGBJV
+
 [ProjectVariant1]
 UniqueID=D8054658-8A78-41E9-A510-4DBBA854E3A9
 Description=A
@@ -218,6 +235,10 @@ AllowFabrication=1
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Yaesu_FT65E_OHIS_interface\Design Rule Check - OHIS_FT65E.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Project_link
