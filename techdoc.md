@@ -8,6 +8,8 @@
 * TRS-plugs (3.5mm and 2.5mm) and can be soldered directly to the interface:
   * Solder sleeve to the PCB.
   * Solder tip and ring using a loops of wire through two holes on either side of the plug.
+* No filtering on TRS-plugs.
+* GND of radio is directly connected to GND of interface.  The UTP-cable might be used as "radial" for the antenna.
 
 # Connection to UART interface
 * 6 pin JST XH connector (2.5mm pitch) to avoid wrong connection
