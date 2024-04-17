@@ -3,6 +3,7 @@
 * No audio transformers because the radio only has 1 ground connection
 * The radio has a H-bridge output stage.  The output is at 1.85V when no audio is present.  A capacitor is used to block the DC voltage.
 * A small capacitor, parallel to the headphones, is used to filter out the high frequency noise.
+* Only one channel is used to feed both headphones.  The radio has a mono output.  This reduces the number of components needed.
 
 # Connection to the radio
 * TRS-plugs (3.5mm and 2.5mm) and can be soldered directly to the interface:
