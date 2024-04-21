@@ -5,3 +5,7 @@
 4. Solder pads for a custom cable
 5. Plugs directly in the radio, avoiding custom cables or adapters
 6. RF-filtering on all IO-connections
+7. Clear labeling of all connectors
+
+# Optional
+1. audio jacks for connecting to a sound card or other audio device
