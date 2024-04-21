@@ -15,12 +15,12 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job Group
+Name=Documentation.OutJob
 Description=
 TargetOutputMedium=Schematics PDF
 VariantName=A
 VariantScope=1
-CurrentConfigurationName=Sources
+CurrentConfigurationName=
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
@@ -189,9 +189,9 @@ OutputName9=Draftsman
 OutputCategory9=Documentation
 OutputDocumentPath9=OHIS_FT65E.PCBDwf
 OutputVariantName9=
-OutputEnabled9=0
+OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
-OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium2=2
 OutputEnabled9_OutputMedium3=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
@@ -199,7 +199,7 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [PublishSettings]
 OutputFilePath2=C:\github\ohis-ht-interface\Yaesu_FT65E_OHIS_interface\Project Outputs for Yaesu_FT65E_OHIS_interface\Schematics PDF\OHIS_FT65_project_revisionVariantName_schematics.PDF
 ReleaseManaged2=1
-OutputBasePath2=
+OutputBasePath2=Project Outputs for Yaesu_FT65E_OHIS_interface
 OutputPathMedia2=[Media Name]
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
