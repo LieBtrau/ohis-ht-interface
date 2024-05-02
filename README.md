@@ -7,7 +7,7 @@ which stays with their headset, and now they can achieve full interoperability w
 This repository will contain OHIS-interface boards to the following handheld radios:
 
 ## Yaesu FT-65E
-* [Radio tecnical doc](https://github.com/LieBtrau/digital-walkie-talkie/blob/master/SoftwareModem/Yaesu_FT65-E.ipynb)
+* [Radio technical doc](https://github.com/LieBtrau/digital-walkie-talkie/blob/master/SoftwareModem/Yaesu_FT65-E.ipynb)
 * [OHIS FT-65E interface, version 1.0.0 (Altium online viewer)](https://365.altium.com/files/52D7B6AC-E25B-4030-AC4F-B64CA4D52889)
 
 ## Midland G9 Pro
