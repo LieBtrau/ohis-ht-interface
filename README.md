@@ -31,6 +31,7 @@ This repository will contain OHIS-interface boards to the following handheld rad
 ## Yaesu FT-65E
 * [Radio technical doc](https://github.com/LieBtrau/digital-walkie-talkie/blob/master/SoftwareModem/Yaesu_FT65-E.ipynb)
 * [OHIS FT-65E interface, version 1.0.0 (Altium online viewer)](https://365.altium.com/files/52D7B6AC-E25B-4030-AC4F-B64CA4D52889)
+* [SATA FT-65E interface, version 1.0.0 (Altium online viewer)](https://365.altium.com/files/A41D46D5-1541-4C2A-84D1-905C59505208)
 
 ## Midland G9 Pro
 * [Radio technical doc](https://github.com/LieBtrau/digital-walkie-talkie/blob/master/SoftwareModem/MidlandG9pro.ipynb)
