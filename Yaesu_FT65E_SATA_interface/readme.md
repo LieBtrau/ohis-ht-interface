@@ -1,16 +1,19 @@
 # Headphones
 * 0dBV to -10dBV into a 16ohm to 64ohm load, a series resistor will be needed to drop the voltage to the correct level.
 * No audio transformers because the radio only has 1 ground connection
-* The radio has a H-bridge output stage.  The output is at 1.85V when no audio is present.  A capacitor is used to block the DC voltage.
+* The radio has an H-bridge output stage.  The output is at 1.85V when no audio is present.  A capacitor is used to block the DC voltage.
 * A small capacitor, parallel to the headphones, is used to filter out the high frequency noise.
 * Only one channel is used to feed both headphones.  The radio has a mono output.  This reduces the number of components needed.
+
+# Microphone
+* The SATA interface is AC-coupled to the radio, but that should not be needed.  The 1uF can be replaced by a 0ohm resistor.
 
 # Connection to the radio
 * TRS-plugs (3.5mm and 2.5mm) and can be soldered directly to the interface:
   * Solder sleeve to the PCB.
   * Solder tip and ring using a loops of wire through two holes on either side of the plug.
 * No filtering on TRS-plugs.
-* GND of radio is directly connected to GND of interface.  The UTP-cable might be used as "radial" for the antenna.
+* GND of radio is directly connected to GND of interface.
 
 # Connection to a sound card
 Might also be connected to [Ai-thinker esp32-audio-kit](https://docs.ai-thinker.com/en/esp32-audio-kit), which uses an [ESP32-A1S module](https://docs.ai-thinker.com/_media/esp32-a1s_v2.3_specification.pdf)
