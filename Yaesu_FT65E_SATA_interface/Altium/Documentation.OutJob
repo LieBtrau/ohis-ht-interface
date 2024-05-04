@@ -187,7 +187,7 @@ Configuration8_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModels
 OutputType9=PCBDrawing
 OutputName9=Draftsman
 OutputCategory9=Documentation
-OutputDocumentPath9=OHIS_FT65E.PCBDwf
+OutputDocumentPath9=FT65E_SATA.PCBDwf
 OutputVariantName9=
 OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
@@ -199,7 +199,7 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [PublishSettings]
 OutputFilePath2=C:\github\ohis-ht-interface\Yaesu_FT65E_OHIS_interface\Project Outputs for Yaesu_FT65E_OHIS_interface\Schematics PDF\OHIS_FT65_project_revisionVariantName_schematics.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Yaesu_FT65E_OHIS_interface
+OutputBasePath2=Project Outputs for Yaesu_FT65E_SATA_interface
 OutputPathMedia2=[Media Name]
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -226,7 +226,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\ProgramData\Altium\Altium Designer {473B0CD7-BC89-44B5-8D63-ABA35E737D1E}\VaultEditCache\4485F3DC-3820-4BFD-8F2D-2C51073F0DA0\Released\Project Outputs for PRJT-0003-1\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Yaesu_FT65E_OHIS_interface
+OutputBasePath3=Project Outputs for Yaesu_FT65E_SATA_interface
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
