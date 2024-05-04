@@ -192,7 +192,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SPZBGBJV
 
 [Document9]
 DocumentPath=FT65E_SATA.SchDoc
@@ -235,6 +235,10 @@ AllowFabrication=1
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Yaesu_FT65E_SATA_interface\Design Rule Check - FT65E_SATA.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Project_link
