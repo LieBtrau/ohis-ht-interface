@@ -22,8 +22,8 @@ OHIS, but using SATA-connectors.  The SATA-interface is a 7-pin connector, which
 | 2 | SPK | Speaker |
 | 3 | VCC | Power, max 5V, 200mA |
 | 4 | GND | Ground |
-| 5 | MIC | Microphone |
-| 6 | PTT | Push-To-Talk |
+| 5 | PTT | Push-To-Talk |
+| 6 | MIC | Microphone |
 | 7 | GND | Ground |
 
 This repository will contain OHIS-interface boards to the following handheld radios:
