@@ -237,20 +237,20 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=assembly_revision
-Value=0
+Name=Project_link
+Value=https://github.com/LieBtrau/ohis-ht-interface
 
 [Parameter2]
-Name=board_name
-Value=OHIS_FT65
-
-[Parameter3]
 Name=board_revision
 Value=1.0
 
+[Parameter3]
+Name=board_name
+Value=FT65_SATA
+
 [Parameter4]
-Name=Project_link
-Value=https://github.com/LieBtrau/ohis-ht-interface
+Name=assembly_revision
+Value=0
 
 [Configuration1]
 Name=Sources
