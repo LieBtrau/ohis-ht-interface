@@ -29,11 +29,11 @@ OHIS, but using SATA-connectors.  The SATA-interface is a 7-pin connector, which
 This repository will contain OHIS-interface boards to the following handheld radios:
 
 ## Yaesu FT-65E
-* [Radio technical doc](https://github.com/LieBtrau/digital-walkie-talkie/blob/master/SoftwareModem/Yaesu_FT65-E.ipynb)
+* [Radio technical doc](./Devices/Yaesu_FT-65/Yaesu_FT65-E.ipynb)
 * [OHIS FT-65E interface, version 1.0.0 (Altium online viewer)](https://365.altium.com/files/52D7B6AC-E25B-4030-AC4F-B64CA4D52889)
 * [SATA FT-65E interface, version 1.0.0 (Altium online viewer)](https://365.altium.com/files/A41D46D5-1541-4C2A-84D1-905C59505208)
 
 ## Midland G9 Pro
-* [Radio technical doc](https://github.com/LieBtrau/digital-walkie-talkie/blob/master/SoftwareModem/MidlandG9pro.ipynb)
+* [Radio technical doc](./Devices/Midland_G9_Pro/MidlandG9pro.md)
 
 These interfaces might work on more radios, but they have only been tested on the radios listed above.
