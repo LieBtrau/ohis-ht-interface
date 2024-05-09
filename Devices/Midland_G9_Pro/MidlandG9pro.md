@@ -14,7 +14,7 @@
 * H = 500mW
 
 ### Receiver sensitivity
-* 0.35µV (12dB [SINAD](https://en.wikipedia.org/wiki/SINAD))
+* 0.35µV (-116dBm) (12dB [SINAD](https://en.wikipedia.org/wiki/SINAD))
 
 ### Channel settings
 * [Channel list](./doc/8f8ebdc9da1fd9110cbd3557c7c3e5df0c08e5ac_CHANNELS_G9_PRO.pdf)
