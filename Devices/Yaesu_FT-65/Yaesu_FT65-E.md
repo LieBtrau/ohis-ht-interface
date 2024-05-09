@@ -3,6 +3,15 @@
 
 
 ### Radio settings
+#### Transmit power
+* 0.5 W (Low)
+* 2.5 W (Middle)
+* 5.0 W (High)
+
+#### Receiver sensitivity
+* 0.2 μV (-121dBm) for 12 dB [SINAD](https://en.wikipedia.org/wiki/SINAD) (420 - 470 MHz, NFM)
+
+#### PMR446
 European version of the FT-65 can listen to PMR446, but is not allowed to transmit on that band.  Transmission on PMR446 is only allowed with PMR446-certified radios (fixed antenna, TX-power limited to 0.5W, ...), which the FT-65E is clearly not.
 
 It's however technically possible to use a Yaesu FT-65E on PMR446:
@@ -30,6 +39,7 @@ During the tests:
 ### Audio IO
 Don't turn the volume knob more than 50% to avoid distortion.  
 Maximum undistorted audio output is 4.65Vpp, 1.85Voffset at 1kHz.
+
 Maximum analog input voltage peak-peak for the Yaesu FT-65E = **30mVpp**
 
 #### TX-Delay
