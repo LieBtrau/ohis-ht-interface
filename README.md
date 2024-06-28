@@ -46,7 +46,17 @@ The OHIS- and SATA-interface to the FT-65E are also providing a pin header for U
 * [OHIS FT-65E interface, version 1.0.0 (Altium online viewer)](https://365.altium.com/files/52D7B6AC-E25B-4030-AC4F-B64CA4D52889)
 * [SATA FT-65E interface, version 1.0.0 (Altium online viewer)](https://365.altium.com/files/A41D46D5-1541-4C2A-84D1-905C59505208)
 
+
 ## Midland G9 Pro
 * [Radio technical doc](./Devices/Midland_G9_Pro/MidlandG9pro.md)
 
 These interfaces might work on more radios, but they have only been tested on the radios listed above.
+
+# Evaluation
+|  |  |
+| --------- | ---------- |
+| <a href="./pix/molten_connector.jpg"><img src="./pix/molten_connector.jpg" width="500px" /></a> | According to the datasheet, the TRS-plug should be soldered at 400°C for one second.  It's very difficult to get this done properly on a PCB.  The connector is very sensitive to heat and the plastic melts very quickly.  The 3.5mm plug has a short-circuit between the ring and the sleeve.  The isolating plastic has molten away.<br/>Another issue is that the PCB extends quite far on the edge of the PCB.  It might easily snag somewhere and break (or break the TRS-jacks inside the radio.  The custom overmoulded dual TRS-cables are much smaller on the side. |
+
+A better option might be to keep using the custom overmoulded TRS-cables, but connect them to a DB9/DE9 connector.  The circuitry could be built into the DB9/DE9-case.  Unfortunately that's quite a bulky solution.  It could be useful in the "shack".  
+
+For mobile applications however, I don't see an immediate use for it.  An overmoulded dual TRS-cable with TRRS-plug on the other end (as sold by Mobilinkd) is a much more elegant solution.  
