@@ -53,6 +53,7 @@ This is the delay needed between releasing the PTT-button and the FT-65E stoppin
 
 * From Yaesu PTT-up to Midland G9 Pro (squeltch-open all the time) = <170ms.  Most of the times, it's between 120ms and 140ms.
 
+#### Audio connectors
 Motorola M1 connector : 7.62mm spacing between TRS-jacks.
 * The threaded insert has an unknown screw thread.  It's close to M2.5, but not exactly the same.
 * 3.5mm : 
