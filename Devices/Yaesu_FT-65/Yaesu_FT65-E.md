@@ -1,7 +1,6 @@
 ## Yaesu FT-65E
  <img src="./doc/ft-65E_product_image.jpg" alt="Yaesu FT-65E product image" style="width:200px">
 
-
 ### Radio settings
 #### Transmit power
 * 0.5 W (Low)
@@ -18,24 +17,28 @@ It's however technically possible to use a Yaesu FT-65E on PMR446:
 
 1. Expand TX-range of a Yaesu FT-65E outside the ham-bands using this guide [here](https://simonthewizard.com/2017/12/17/yaesu-ft-65-expand/).
 2. Set the following menu options in the FT-65E:
-    32 : TX Power : LOW (which is 0.5W)
-    37 : WIDE/NAR : NARROW (+/-2.5kHz deviation), when set to wide the Midland cuts off reception above 800Hz.
+    * **32 : TX Power** : LOW (which is 0.5W)
+    * **37 : WIDE/NAR** : NARROW (+/-2.5kHz deviation), when set to wide the Midland cuts off reception above 800Hz.
 3. Set the TX-frequency equal to that of a PMR446-radio.
-4. Frequency step : 30 : Step : 6.25kHz
+4. Frequency step : 
+    * **30 : STEP** : 6.25kHz
 5. Squelch type:
-  1. CTCSS:
-     * 8 : CTCSS : set up the same as a PMR446-radio.  On Kenwood PMR446 handsets, this will be called "Quiet Talk (QT)" setting, but it's essentially the same thing.
-     * 29 : SQL Type : TSQL
-  2. DCS:
-     * 11 : DCS-code : e.g. RX : 754, TX : 754
-     * 29 : SQL Type : DCS
+    * CTCSS:
+      * **8 : CTCSS** : set up the same as a PMR446-radio.  On Kenwood PMR446 handsets, this will be called "Quiet Talk (QT)" setting, but it's essentially the same thing.
+      * **29 : SQL Type** : TSQL
+    * DCS:
+      * **11 : DCS-code** : e.g. RX : 754, TX : 754
+      * **29 : SQL Type** : DCS
+6. Monitor / Tone calling.  The monitor button can be repurposed to send tone calling signals:
+    * **9 : MONI/T.CALL** : 
+      * MONITOR : monitor button is used to open squelch
+      * other settings are for tone burst
      
 ### Antenna
 During the tests:
 * Set the TX power level (32:TX PWR) to LOW (0.5W)
 * Replace the antenna by an RP-SMA to SMA adapter and add a 50Ω terminator.
 
-    
 ### Audio IO
 Don't turn the volume knob more than 50% to avoid distortion.  
 Maximum undistorted audio output is 4.65Vpp, 1.85Voffset at 1kHz.
@@ -53,7 +56,6 @@ This is the delay needed between releasing the PTT-button and the FT-65E stoppin
 
 * From Yaesu PTT-up to Midland G9 Pro (squeltch-open all the time) = <170ms.  Most of the times, it's between 120ms and 140ms.
 
-#### Audio connectors
 Motorola M1 connector : 7.62mm spacing between TRS-jacks.
 * The threaded insert has an unknown screw thread.  It's close to M2.5, but not exactly the same.
 * 3.5mm : 
